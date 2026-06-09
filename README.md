@@ -1,11 +1,11 @@
 # 🐧 Linux Mastery Course — GitHub Codespaces ke andar!
 
 > **Complete Linux + Python Deployment + Docker + Cloud learning repository**
-> For BScIT students who know Python and want to become Linux pros!
+> For BScIT students who know Python and want to learn linux a lot!
 
 ---
 
-## 🙏 Welcome, Future Linux Pro!
+## 🙏 Welcome, Future Linux User!
 
 Yaar, agar tum yahan tak pohonche ho, toh tumne pehla step le liya hai — Linux seekhne ka!
 
