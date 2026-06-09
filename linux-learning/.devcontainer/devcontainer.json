@@ -1,0 +1,31 @@
+{
+  "name": "Linux Learning Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "pip3 install flask fastapi uvicorn gunicorn python-dotenv requests psycopg2-binary sqlalchemy pytest && echo '🐧 Linux Learning Environment Ready!' && cat START_HERE.md",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles",
+        "ms-azuretools.vscode-docker",
+        "mhutchie.git-graph"
+      ],
+      "settings": {
+        "editor.fontSize": 14,
+        "terminal.integrated.fontSize": 13,
+        "editor.wordWrap": "on",
+        "markdown.preview.fontSize": 15
+      }
+    }
+  },
+  "remoteUser": "codespace",
+  "forwardPorts": [5000, 8000, 8080, 3000]
+}
